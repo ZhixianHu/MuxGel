@@ -1,0 +1,47 @@
+name: muxgel
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda
+  - torchaudio
+
+  - numpy>=1.24 
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - h5py     
+  - zarr   
+  - numcodecs
+  - einops   
+  - tqdm    
+
+  - opencv    
+  - scikit-image
+  - imageio
+  - imageio-ffmpeg
+  
+  - jupyter
+  - ipykernel
+  - wandb    
+  - tensorboard
+  - psutil
+  - click
+  - pyyaml
+  - trimesh
+  
+  - pip:
+    - segmentation-models-pytorch==0.3.3 
+    - torchmetrics[image]>=1.0.0       
+    - lpips                        
+    - accelerate 
+    - transformers>=4.30.0  
+    - diffusers    
+    - timm       
+  
