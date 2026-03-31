@@ -39,8 +39,6 @@ To generate your own datasets using the `mujoco_scanned_objects` library, fetch 
 git submodule update --init external/mujoco_scanned_objects
 ```
 
------
-
 ## 📊 Dataset Preparation
 
 ### For Simulation Training
@@ -82,6 +80,31 @@ To train with real-world data, you will need the calibration assets:
   * Download `calibration_data.zip` from [Hugging Face](https://huggingface.co/datasets/zhixianhu/muxgel) and unzip it into the `data/` folder.
 
 -----
+
+
+## ⚖️ Pre-trained Weights
+
+The trained model weights for all six architectures (SI, DI-AbsT, DI-ResT for both Simulation and Real-world) are hosted on **Hugging Face**.
+
+| Repository | Link |
+| :--- | :--- |
+| **MuxGel Weights** | [huggingface.co/datasets/zhixianhu/muxgel](https://www.google.com/search?q=https://huggingface.co/datasets/zhixianhu/muxgel) |
+
+### 📥 Automatic Download (Recommended)
+
+We provide a helper script to fetch the necessary checkpoints (approx. 636 MB total) directly into your project root.
+
+1.  **Install requirements:**
+
+    ```bash
+    pip install huggingface_hub
+    ```
+
+2.  **Run the download script:**
+
+    ```bash
+    python scripts/download_weights.py
+    ```
 
 ## 🚀 Training & Testing
 
