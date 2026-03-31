@@ -1,0 +1,3 @@
+[submodule "external/mujoco_scanned_objects"]
+	path = external/mujoco_scanned_objects
+	url = https://github.com/kevinzakka/mujoco_scanned_objects.git

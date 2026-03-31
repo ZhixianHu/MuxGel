@@ -1,1 +1,3 @@
-/external/mujoco_scanned_objects
+data/*
+wandb/*
+outputs/*

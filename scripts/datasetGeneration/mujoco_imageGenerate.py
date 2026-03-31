@@ -71,6 +71,8 @@ class depthTactileSimulator(object):
     """
     Simulates optical tactile sensor responses (here, GelSight mini) based on depth maps.
     Calculates shading, shadows, and elastomer deformation.
+    Note:
+        Adapted from the Taxim framework (https://github.com/Robo-Touch/Taxim).
     """
     def __init__(self, data_folder, gelpad_model_path):
         # polytable
