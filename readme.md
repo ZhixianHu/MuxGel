@@ -25,7 +25,7 @@ We recommend using miniforge for dependency management:
 
 ```bash
 # Create the environment from the provided file
-conda env create -f environment.yml
+conda env create -f conda_environment.yaml
 
 # Activate the environment
 conda activate muxgel
