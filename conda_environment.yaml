@@ -32,4 +32,5 @@ dependencies:
     - lpips                        
     - timm       
     - mujoco>=2.3.0
+    - open3d>=0.18.0
   
